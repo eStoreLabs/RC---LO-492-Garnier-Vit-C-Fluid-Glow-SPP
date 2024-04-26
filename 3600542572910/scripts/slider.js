@@ -1,4 +1,4 @@
-// require(['jquery', 'slick'], function ($) {
+require(['jquery', 'slick'], function ($) {
 $(document).ready(function () {
   $('.es-slick-carousel').slick({
     dots: true,
@@ -8,4 +8,4 @@ $(document).ready(function () {
     appendDots: '.slick-pagination',
   });
 });
-// });
+});
